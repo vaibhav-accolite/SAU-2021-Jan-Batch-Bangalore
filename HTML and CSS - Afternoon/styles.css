@@ -1,0 +1,200 @@
+* {
+    /* background-color: antiquewhite; */
+    margin: 0%;
+    padding: 0%;    
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.navbar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    background-color: rgb(43, 40, 40);
+    padding: 14px;
+    text-align:center ;
+    /* overflow: hidden; */
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: white;
+    padding: 10px;
+    /* display: block; */
+    /* text-align: center; */
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: yellowgreen;
+    transition: 1s;
+}
+
+.flexbox {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(59, 59, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox .about {
+    height: 30em;
+    width: 50em;
+    background-color:lightcyan;
+    border-radius: 5%;
+    /* border-style: solid;
+    border-width: 1px; */
+    border: 2px solid red;
+}
+
+
+hr {
+    height: 0.5px;
+    margin: 5%;
+    margin-bottom: 0%;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about  img {
+    height: 200px;
+    width: 175px;
+    padding-top: 10px;
+    border-radius: 40%;
+}    
+
+.infotable {
+    border: 2px solid greenyellow;
+    border-radius: 5%;
+    width: 80%;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.flexbox .project {
+    height: 30em;
+    width: 50em;
+    background-color:lightcyan;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.projectstable {
+    border: 3px solid red;
+    border-radius: 5%;
+    padding: 2%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+}
+
+th {
+    text-decoration: underline;
+}
+
+th , td {
+    padding: 10px;
+    text-align: center;
+}
+
+.flexbox .academic {
+    height: 30em;
+    width: 50em;
+    background-color:lightcyan;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.academictable {
+    width: 100%;
+    height: 100%;
+    border:3px solid red;
+    border-radius: 5%;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    /* background-color: indigo; */
+}
+
+.academictable td :hover {
+    background-color: indigo;
+    transition: 2s;
+    border-radius: 20%;
+
+}
+
+.academicinfo {
+    width: 100%;
+    height: 100%;
+}
+
+.collegeimage {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.hide {
+    display: none;
+}
+
+.academictable td :hover + .hide{
+    display: block;
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.flexbox .contact {
+    height: 30em;
+    width: 50em;
+    background-color:lightcyan;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.contacttable {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 2px solid yellowgreen;
+    border-radius: 5%;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.contactinfo img {
+    height: 200px;
+    width: 200px;
+}
+
+.contacttable td  :hover {
+    border-radius: 100%;
+}
+

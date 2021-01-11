@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
+    <title>Personal Portfolid</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="#about"> About </a></li>
+                <li><a href="#projects"> Projects </a></li>
+                <li><a href="#academics"> Acadimics </a></li>
+                <li><a href="#contacts"> Contact </a></li>
+            </ul>
+        </div>
+
+        <div class="flexbox" id="about">
+            <div class="about">
+                <div class="image">
+                    <img src="./images/dp.jpg" alt="personal image">
+                </div>
+                <hr>
+                <div class="info">
+                    <!-- Name : Vaibhav V Pawar <br><br>
+                    College : PES University <br><br>
+                    Place : Davanagere, Karnataka <br><br>
+                    Likes : Taking up new and challenging questions, Night driving <br><br>
+                    Hobbies & Intrests : Competative Coding , Reading Biography. -->
+
+                    <table class="infotable">
+                        <tr>
+                            <th>Name</th>
+                            <td>Vaibhav V Pawar</td>
+                        </tr>
+                        <tr>
+                            <th>College</th>
+                            <td>PES University</td>
+                        </tr>
+                        <tr>
+                            <th>Place</th>
+                            <td>Davanager, Karnataka</td>
+                        </tr>
+                        <tr>
+                            <th>Likes</th>
+                            <td>Taking up new and challenging questions, Night driving</td>
+                        </tr>
+                        <tr>
+                            <th>Hobbies & Intrests</th>
+                            <td>Competative Coding , Reading Biography</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flexbox" id = 'projects'>
+            <div class="project">
+                <table class="projectstable">
+                    <tr>
+                        <th colspan="2"><h3>Projects<h3></th>
+                    </tr>
+                    <tr>
+                        <th>Hardware</th>
+                        <td>AutoDrive Car with accident detection</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="4">DataStructure</th>
+                        <td>Lookahead and auto complete</td>
+                    </tr>
+                    <tr>
+                        <td>LRU Cache</td>
+                    </tr>
+                    <tr>
+                        <td>Memory management System</td>
+                    </tr>
+                    <tr>
+                        <td>Big Integer Lib</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">WebDev</th>
+                        <td>Online Coding Platform</td>
+                    </tr>
+                    <tr>
+                        <td>Social Networking Website</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Others</th>
+                        <td>Auto Taggin of StackOverflow questions</td>
+                    </tr>
+                    <tr>
+                        <td>Gender Detection using facial image</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        
+        <div class="flexbox" id = 'academics'>
+            <div class="academic">
+                <table class="academictable">
+                    <tr>
+                        <td colspan="3">Hover over the image</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="academicinfo">
+                                <img class = "collegeimage" src="./images/school.jpeg" alt="my school image" >
+                                <div class="hide">
+                                    <br>
+                                    School : STCS <br><br>
+                                    Board : CBSE <br><br>
+                                    Score : 8.2
+
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="academicinfo">
+                                <img src="./images/pucollege.jpeg" class = "collegeimage" alt="">
+                                <div class="hide">
+                                    <br>
+                                    College : Chetana PU College <br><br>
+                                    Board : PU State Board <br><br>
+                                    Score : 91%
+
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="academicinfo">
+                                <img src="./images/degree.jpg" alt="" class = "collegeimage">
+                                <div class="hide">
+                                    <br>
+                                    College : PES University <br><br>
+                                    Board : PES University <br><br>
+                                    Score : 8.32 CGPA
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>
+
+        </div>
+
+
+        <div class="flexbox" id = 'contacts'>
+            <div class="contact">
+                <table class="contacttable">
+                    <tr>
+                        <td colspan="3">Click on Image to get contact</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="contactinfo">
+                                <a href="https://www.linkedin.com/in/vaibhav-v-pawar-169799185/" target="_blank"><img class = "linkedin" src="./images/linkedin.png" alt="linkedin" ></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="contactinfo">
+                                <a href="pvaibhavv12@gmail.com" target="_blank"><img src="./images/gmail.png" class = "gmail" alt=""></a>
+                            </div>
+                        </td>
+                        
+                    </tr>
+                    
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
