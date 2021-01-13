@@ -1,0 +1,5 @@
+Command to drop primary index :
+drop index couchbasedemo.idx_primary_cbdemo;
+
+Adding particular index :
+create index 'second_idx' on 'couchbasedemo'('_class')
