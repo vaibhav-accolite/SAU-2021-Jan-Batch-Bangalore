@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./formquestion.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <form  action="form.html"  id="formid" style="text-align: center;">
+        <label for="fname">First Name : </label>
+        <input type="text" name="fname" id="firstname"><br>
+        <label for="lname">Last Name : </label>
+        <input type="text" name="lname" id="lastname"><br>
+        <label for="email">email : </label>
+        <input type="text" name="email" id="email"><br>
+        
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="male">Female</label>
+        <br>
+        <label for="branch">Choose a branch</label>
+        <br>
+        <select name="branch" id="branch">
+            <option value="Choose">Choose</option>
+            <option value="CS">CS</option>
+            <option value="EC">EC</option>
+            <option value="EEE">EEE</option>
+            <option value="ME">ME</option>
+            <option value="BT">BT</option>
+        </select>
+        <br>
+        <button type="button" onclick="validate()">Submit</button>
+    </form>
+
+</body>
+</html>
