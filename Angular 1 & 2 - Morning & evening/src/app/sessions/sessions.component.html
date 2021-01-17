@@ -1,0 +1,16 @@
+<h2 style="text-align: center;">Display Sessions</h2>
+  <ol class="sessions" style="text-align: center;">
+    <li *ngFor="let session of sessions"
+      [class.selected]="session === selectedSession"
+      (click)="onSelect(session)">
+      <span class="badge">{{session.name}}</span><br>
+    </li>
+  </ol>
+  <div style="text-align: center;">
+  <button (click)="selectedSession=addSession()" style="text-align: center;">Add Session</button>
+</div>
+  <div *ngIf="selectedSession" style="text-align: center;">
+  <button (click)="deleteSession(selectedSession)">delete Selected Session</button>
+   </div>
+
+  <app-session-detail [selectedSession]="selectedSession"></app-session-detail>
